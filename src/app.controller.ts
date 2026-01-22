@@ -8,6 +8,6 @@ export class AppController {
   @Get()
   getHello(): string {
     const saludo = 'hola lu';
-    return "hola lu";
+    return saludo;
   }
 }
